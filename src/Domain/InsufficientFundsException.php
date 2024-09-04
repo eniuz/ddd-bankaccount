@@ -1,0 +1,9 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MarBSzot\Banking\Domain;
+
+class InsufficientFundsException extends \Exception
+{
+}

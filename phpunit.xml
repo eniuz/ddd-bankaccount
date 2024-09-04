@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.3/phpunit.xsd" backupGlobals="false" beStrictAboutOutputDuringTests="true" beStrictAboutChangesToGlobalState="true" beStrictAboutTestsThatDoNotTestAnything="false" bootstrap="./vendor/autoload.php" colors="true" processIsolation="false" stopOnError="true" stopOnFailure="true" stopOnIncomplete="false" stopOnSkipped="false" stopOnRisky="true" cacheDirectory=".phpunit.cache" backupStaticProperties="false">
+  <php>
+    <ini name="error_reporting" value="-1"/>
+  </php>
+  <testsuites>
+    <testsuite name="IFX Bank Account">
+      <directory>./tests/Unit</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
